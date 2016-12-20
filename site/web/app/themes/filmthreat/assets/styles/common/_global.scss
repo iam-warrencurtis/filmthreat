@@ -1,0 +1,210 @@
+.banner {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.logo {
+  width: 365px;
+  margin-top: 10px;
+}
+
+.article-banner {
+  display: none;
+}
+.single-post {
+
+.article-background {
+  background-repeat: no-repeat;
+  background-size: 1100px;
+  height: 350px;
+  width: 100%;
+}
+.article-banner {
+  background-color: $black;
+    display: block;
+    height: 350px;
+  }
+
+  h1 {
+    color: $white;
+  }
+}
+
+.article-intro {
+  color: $brand-primary;
+  @include lato;
+}
+
+time {
+  color: $brand-primary;
+  @include lato;
+}
+
+.row {
+    margin-right: 0;
+}
+
+.article-category {
+  padding-top: 95px;
+
+  p::first-letter {
+    text-transform: uppercase;
+  }
+
+
+
+  p {
+    @include roboto-slab;
+    background-color: $brand-primary;
+    color: $white;
+    font-size: 1em;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+
+  }
+}
+
+.sidebar-related {
+  h3 {
+    @include roboto-slab;
+    color: $brand-primary;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  li {
+    color: $brand-secondary;
+
+    a {
+    @include roboto-slab;
+    color: $brand-secondary;
+    font-weight: bold;
+  }
+  }
+}
+
+.byline {
+  a {
+    @include roboto-slab;
+    font-size: 1em;
+  }
+}
+
+.article-intro {
+  margin-top: 20px;
+}
+
+blockquote {
+  p {
+  @include roboto-slab;
+  font-size: 2em;
+  line-height: 45px;
+  color: $brand-secondary;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  }
+
+  border-left-style: solid;
+  border-color: $brand-secondary;
+  border-width: 10px;
+}
+
+p {
+  color: $brand-primary;
+  @include lato;
+}
+
+.review-author {
+  @include roboto-slab;
+  font-size: 1em;
+  color: $brand-secondary;
+  font-weight: bold;
+}
+
+.review-title {
+  @include roboto-slab;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.page-template-review, .page-template-page-interviews {
+  .page-header {
+    h1 {
+      @include roboto-slab;
+      font-weight: bold;
+      text-align: right;
+
+    }
+  }
+}
+
+.article-banner {
+  h1 {
+    @include roboto-slab;
+    font-size: 3.6em;
+  }
+}
+
+.single-post {
+.article-subtitle {
+  @include lato;
+        color: $white;
+        font-size: 1.5em;
+        width: 500px;
+
+}
+}
+
+.interview-section-wrapper {
+  background-color: #f5f5f5;
+  width: 355px;
+
+  .interview-author {
+    @include roboto-slab;
+    font-size: 1em;
+    color: $brand-secondary;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+  }
+
+  .interview-excerpt {
+    @include lato;
+    font-size: .8em;
+    color: $black;
+    padding-left: 10px;
+    width: 340px;
+  }
+}
+.interview-image {
+  width: 355px;
+  height: 286px;
+  overflow: hidden;
+
+  img {
+    width: 500px;
+    margin-left: -75px;
+  }
+}
+
+.interview-page-subtitle {
+  @include lato;
+  font-size: .9em;
+  padding-left: 10px;
+}
+
+.interview-page-title {
+  @include roboto-slab;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 28px;
+  padding-top: 5px;
+  padding-left: 10px;
+
+  a {
+    color: $black;
+  }
+}

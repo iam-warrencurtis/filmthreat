@@ -1,0 +1,42 @@
+footer {
+  background-color: $brand-primary;
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+
+  li {
+    line-height: 25px;
+  }
+}
+
+  a {
+    @include roboto-slab;
+    color: $white;
+
+    &:hover {
+      color: $brand-secondary;
+      text-decoration: none;
+    }
+  }
+
+  h3 {
+    @include roboto-slab;
+    border-bottom: 1px dashed $brand-secondary;
+    color: $brand-secondary;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 2em;
+    min-width: 250px;
+    padding-top: 20px;
+  }
+}
+
+.copyright {
+  border-top: 1px dashed $brand-secondary;
+  color: $white;
+  font-size: .9em;
+  margin-top: 35px;
+  padding-top: 10px;
+}

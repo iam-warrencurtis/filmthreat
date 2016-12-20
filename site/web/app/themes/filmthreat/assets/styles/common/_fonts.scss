@@ -1,0 +1,13 @@
+@mixin roboto-slab {
+  font-family: 'Roboto Slab', serif;
+}
+@mixin roboto {
+  font-family: 'Roboto', sans-serif;
+}
+@mixin lato {
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  @include lato;
+}

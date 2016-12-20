@@ -1,0 +1,102 @@
+.header-wrapper {
+  background-color: $black;
+}
+
+.page-template-page-interviews, .reviews, .news, .single-post {
+  .header-wrapper {
+    background-color: $brand-primary;
+}
+  .banner {
+    height: 75px;
+  }
+  .wrap {
+    margin-top: 35px;
+  }
+}
+
+.home {
+  .banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin: 0 auto;
+    width: 1600px;
+  }
+}
+
+.featured-home-copy {
+  margin-top: -400px;
+
+  .featured-story {
+    @include roboto-slab;
+    border-bottom: 11px solid $brand-secondary;
+    color: $white;
+    font-size: 1.5em;
+    line-height: 40px;
+    text-transform: uppercase;
+    width: 211px;
+  }
+}
+
+.featured-subtitle {
+  width: 400px;
+
+  a {
+    @include roboto-slab;
+    color: $white;
+    font-size: 1.2em;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $brand-secondary;
+    }
+  }
+}
+
+.home-articles {
+  margin-top: 220px;
+  padding-bottom: 40px;
+}
+
+.home-article-title {
+
+  a {
+    @include roboto-slab;
+    color: $black;
+    font-size: 1em;
+    font-weight: bold;
+  }
+}
+
+.home-article-category {
+  margin-left: 20px;
+  margin-top: -30px;
+  position: relative;
+  z-index: 100;
+
+  p::first-letter {
+    text-transform: uppercase;
+  }
+
+
+
+  p {
+    @include roboto-slab;
+    background-color: $brand-primary;
+    color: $white;
+    font-size: 1em;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+
+  }
+}
+
+.latest-articles {
+  @include roboto-slab;
+  color: $black;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+}
