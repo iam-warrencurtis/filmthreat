@@ -8,7 +8,9 @@
 <?php endwhile; ?>
 
 <?php
-query_posts('posts_per_page=1&cat=7');
+$current_year = date('Y');
+
+query_posts('posts_per_page=1&cat=7&year=$current_year');
 while(have_posts()) : the_post();
 ?>
 
@@ -33,7 +35,7 @@ wp_reset_query();
 </div>
 
 <?php
-query_posts('posts_per_page=40&cat=-7');
+query_posts('posts_per_page=40&cat=-7&year=>$current_year');
 while(have_posts()) : the_post();
 ?>
 
