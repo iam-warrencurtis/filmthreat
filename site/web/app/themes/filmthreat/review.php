@@ -11,7 +11,7 @@
 
 <div class="row">
 <?php
-query_posts('cat=3');
+query_posts('cat=3,-1');
 while(have_posts()) : the_post();
 ?>
 
