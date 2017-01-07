@@ -9,7 +9,7 @@ php_max_input_time: 300
 php_max_input_vars: 1000
 php_memory_limit: 2000M
 php_mysqlnd_collect_memory_statistics: 'Off'
-php_post_max_size: 960M
+php_post_max_size: 1024M
 php_sendmail_path: /usr/sbin/ssmtp -t
 php_session_save_path: /tmp
 php_upload_max_filesize: 960M

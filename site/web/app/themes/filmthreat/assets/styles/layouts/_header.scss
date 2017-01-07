@@ -1,9 +1,17 @@
 #menu-top-navigation {
   margin-top: 20px;
+
+  .current_page_item {
+    a {
+      &:hover {
+        text-decoration: none;
+        color: $brand-secondary;
+      }
+    }
+  }
   li {
   float: left;
   margin-right: 20px;
-
 
     a {
         @include roboto-slab;

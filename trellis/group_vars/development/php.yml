@@ -4,7 +4,7 @@ php_display_startup_errors: 'On'
 php_track_errors: 'On'
 php_mysqlnd_collect_memory_statistics: 'On'
 php_opcache_enable: 0
-php_memory_limit: '1024M'
+php_memory_limit: '5000M'
 php_max_execution_time: '120'
 php_post_max_size: '1024m'
 php_upload_max_filesize: '1024m'

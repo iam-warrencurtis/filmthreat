@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7ed34812c5e23e1d4af16aa34b6d64d1",
-    "content-hash": "09397e9486ea629e30f94bed422840c1",
+    "hash": "1fc1445c85f296dc076c053e7bcbee02",
+    "content-hash": "1b5cc088809a14f8a623f439b6fd0003",
     "packages": [
         {
             "name": "composer/installers",
@@ -393,6 +393,46 @@
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
+            "name": "wpackagist-plugin/all-in-one-seo-pack",
+            "version": "2.3.11.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
+                "reference": "tags/2.3.11.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.11.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
+        },
+        {
+            "name": "wpackagist-plugin/fluid-video-embeds",
+            "version": "1.2.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/fluid-video-embeds/",
+                "reference": "tags/1.2.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/fluid-video-embeds.1.2.9.zip",
+                "reference": "tags/1.2.9",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/fluid-video-embeds/"
+        },
+        {
             "name": "wpackagist-plugin/metronet-profile-picture",
             "version": "1.4.3",
             "source": {
@@ -483,7 +523,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-migrate-db.0.9.2.zip",
-                "reference": null,
+                "reference": "tags/0.9.2",
                 "shasum": null
             },
             "require": {

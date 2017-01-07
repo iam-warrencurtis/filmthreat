@@ -1,6 +1,6 @@
 <?php
 /*
-    Template Name: Review
+    Template Name: Review Single
 */
 ?>
 
