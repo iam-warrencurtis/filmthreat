@@ -15,6 +15,7 @@
         @include roboto-slab;
         color: $white;
         font-size: 1.2em;
+        text-shadow: 2px 2px $black;
 
         &:hover {
           text-decoration: none;
