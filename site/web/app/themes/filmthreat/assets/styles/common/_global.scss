@@ -85,10 +85,8 @@ time {
 }
 
 .byline {
-  a {
-    @include roboto-slab;
+  @include roboto-slab;
     font-size: 1em;
-  }
 }
 
 .article-intro {
@@ -212,4 +210,8 @@ p {
 .search-btn {
   background-color: none;
   color: $white;
+}
+
+.author {
+  display: none;
 }

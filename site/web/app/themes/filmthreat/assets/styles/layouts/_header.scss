@@ -3,10 +3,8 @@
 
   .current_page_item {
     a {
-      &:hover {
-        text-decoration: none;
-        color: $brand-secondary;
-      }
+      text-decoration: none;
+      color: $brand-secondary;
     }
   }
   li {

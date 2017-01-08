@@ -11,6 +11,7 @@
     <div class="row">
       <div class="col-sm-8">
       <header>
+        <h2 class="byline"><?php the_field('author_alias'); ?></h2>
         <?php get_template_part('templates/entry-meta'); ?>
         <div class="share-icons"><?php if ( function_exists( 'ADDTOANY_SHARE_SAVE_KIT' ) ) { ADDTOANY_SHARE_SAVE_KIT(); } ?></div>
       </header>
