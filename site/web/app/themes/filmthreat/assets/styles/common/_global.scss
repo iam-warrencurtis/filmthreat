@@ -86,7 +86,8 @@ time {
 
 .byline {
   @include roboto-slab;
-    font-size: 1em;
+  color: $brand-secondary;
+  font-size: 2em;
 }
 
 .article-intro {

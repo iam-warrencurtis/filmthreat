@@ -49,6 +49,7 @@
     line-height: 50px;
     text-decoration: none;
     text-transform: uppercase;
+    text-shadow: 2px 2px $black;
 
     &:hover {
       color: $brand-secondary;
