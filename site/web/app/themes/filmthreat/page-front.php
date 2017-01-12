@@ -33,8 +33,8 @@ wp_reset_query();
 </div>
 
 <?php
-$current_year = date('Y');
-query_posts('year=>$current_year&posts_per_page=40&cat=-7,-1');
+$current_year = the_time('Y');
+query_posts('year=$current_year&posts_per_page=40&cat=-7,-1');
 while(have_posts()) : the_post();
 ?>
 
