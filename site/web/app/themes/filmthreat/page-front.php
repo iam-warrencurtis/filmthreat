@@ -34,9 +34,9 @@ wp_reset_query();
 
 
 <?php
-$current_year = date('Y');
-
-query_posts('&the_date(Y)=>$current_year&posts_per_page=6&cat=-7,-1');
+$current_year = get_the_date('Y')+1;
+echo $current_year;
+query_posts('posts_per_page=40&cat=-7,-1&year=' . $current_year);
 while(have_posts()) : the_post();
 ?>
 
