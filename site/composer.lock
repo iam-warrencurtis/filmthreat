@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1fc1445c85f296dc076c053e7bcbee02",
-    "content-hash": "1b5cc088809a14f8a623f439b6fd0003",
+    "hash": "ea3214e8cb30960ba7f5faf08cf9b7ac",
+    "content-hash": "501f4c936f0f98fea86d1f628f92a62a",
     "packages": [
         {
             "name": "composer/installers",
@@ -403,7 +403,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.2.3.11.1.zip",
-                "reference": null,
+                "reference": "tags/2.3.11.1",
                 "shasum": null
             },
             "require": {
@@ -511,6 +511,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/template-for-custom-post-types/"
+        },
+        {
+            "name": "wpackagist-plugin/w3-total-cache",
+            "version": "0.9.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
+                "reference": "tags/0.9.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.5.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
         },
         {
             "name": "wpackagist-plugin/wp-migrate-db",
