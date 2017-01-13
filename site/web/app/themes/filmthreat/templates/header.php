@@ -15,7 +15,7 @@
       ?>
     </nav>
   </div>
-  <div class="col-sm-2">
+  <div class="col-sm-2 top-search">
     <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
     <div>
         <input style="width: 120px; margin-top: 15px; border: none;" type="text" value="" placeholder="search" name="s" id="s" />

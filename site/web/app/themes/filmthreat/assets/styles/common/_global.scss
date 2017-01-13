@@ -236,3 +236,9 @@ p {
 .login-password-protected {
   body: #000;
 }
+
+@media (max-width: 575px) {
+  .nav-primary, .top-search {
+    display: none;
+  }
+}
