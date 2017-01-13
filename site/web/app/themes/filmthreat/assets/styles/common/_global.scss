@@ -210,7 +210,8 @@ p {
 }
 
 .search-btn {
-  background-color: none;
+  background: none;
+  border: none;
   color: $white;
 }
 
@@ -223,5 +224,11 @@ p {
     h1 {
     text-align: right;
   }
+  }
+}
+
+#searchform {
+  input {
+    padding: 5px;
   }
 }
