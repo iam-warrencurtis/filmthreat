@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ea3214e8cb30960ba7f5faf08cf9b7ac",
-    "content-hash": "501f4c936f0f98fea86d1f628f92a62a",
+    "hash": "01d975d9a842b766190105ba91c59702",
+    "content-hash": "98612102d645b35b8bd005a39afc0968",
     "packages": [
         {
             "name": "composer/installers",
@@ -513,6 +513,26 @@
             "homepage": "https://wordpress.org/plugins/template-for-custom-post-types/"
         },
         {
+            "name": "wpackagist-plugin/uber-login-logo",
+            "version": "1.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/uber-login-logo/",
+                "reference": "tags/1.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/uber-login-logo.1.5.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/uber-login-logo/"
+        },
+        {
             "name": "wpackagist-plugin/w3-total-cache",
             "version": "0.9.5.1",
             "source": {
@@ -523,7 +543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.5.1.zip",
-                "reference": null,
+                "reference": "tags/0.9.5.1",
                 "shasum": null
             },
             "require": {
