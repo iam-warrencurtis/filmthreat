@@ -20,7 +20,7 @@ while(have_posts()) : the_post();
       </div>
       <p class="interview-page-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
       <h4 class="interview-page-subtitle"><?php the_field('subtitle'); ?></h4>
-      <p class="interview-author">By <?= get_the_author(); ?></p>
+      <p style="display: none;" class="interview-author">By <?= get_the_author(); ?></p>
       <p class="interview-excerpt"><?php the_field('excerpt'); ?>...</p>
     </div>
   </div>
