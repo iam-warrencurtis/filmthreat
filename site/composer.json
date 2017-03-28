@@ -44,7 +44,9 @@
     "wpackagist-plugin/fluid-video-embeds": "^1.2",
     "wpackagist-plugin/all-in-one-seo-pack": "2.3.11.1",
     "wpackagist-plugin/w3-total-cache": "0.9.5.1",
-    "wpackagist-plugin/uber-login-logo": "^1.5"
+    "wpackagist-plugin/uber-login-logo": "^1.5",
+    "wpackagist-plugin/googleanalytics": "^2.1",
+    "wpackagist-plugin/akismet": "^3.3"
   },
   "repositories": [
     {
