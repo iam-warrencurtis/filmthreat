@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "858e67065412c1cfc22af2395648e141",
+    "content-hash": "e987c6446c8f2c33ba243b194832f4bd",
     "packages": [
         {
             "name": "composer/installers",
@@ -105,6 +105,17 @@
                 "zikula"
             ],
             "time": "2016-04-13T19:46:30+00:00"
+        },
+        {
+            "name": "deliciousbrains/wp-migrate-db-pro",
+            "version": "1.7.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-latest.zip?licence_key=08f3c1df-b31d-42c2-acc9-f74eb52270e9&site_url=filmthreat.com",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "johnpbloch/wordpress",
