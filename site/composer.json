@@ -30,7 +30,6 @@
     "php": ">=5.6",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.7.2",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/add-to-any": "^1.7",
@@ -46,7 +45,8 @@
     "wpackagist-plugin/w3-total-cache": "0.9.5.1",
     "wpackagist-plugin/uber-login-logo": "^1.5",
     "wpackagist-plugin/googleanalytics": "^2.1",
-    "wpackagist-plugin/akismet": "^3.3"
+    "wpackagist-plugin/akismet": "^3.3",
+    "johnpbloch/wordpress": "4.7.3"
   },
   "repositories": [
     {
