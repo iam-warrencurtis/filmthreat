@@ -1,6 +1,7 @@
 {
     "require": {
         "wp-sync-db/wp-sync-db": "dev-master@dev",
-        "wp-sync-db/wp-sync-db-media-files": "dev-master"
+        "wp-sync-db/wp-sync-db-media-files": "dev-master",
+        "johnpbloch/wordpress": "4.7.2"
     }
 }
