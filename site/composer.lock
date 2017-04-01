@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0620d94a34938ab3f27ab83b9c65c90b",
+    "content-hash": "a333202889be2e3fd3bbe691eb80e513",
     "packages": [
         {
             "name": "composer/installers",
@@ -431,6 +431,26 @@
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
+            "name": "wpackagist-plugin/ajax-load-more",
+            "version": "2.14.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ajax-load-more/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ajax-load-more.zip?timestamp=1490388647",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ajax-load-more/"
+        },
+        {
             "name": "wpackagist-plugin/akismet",
             "version": "3.3",
             "source": {
@@ -561,7 +581,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/photo-gallery.1.3.35.zip",
-                "reference": null,
+                "reference": "tags/1.3.35",
                 "shasum": null
             },
             "require": {
@@ -581,7 +601,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/slide-anything.zip?timestamp=1483799995",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
