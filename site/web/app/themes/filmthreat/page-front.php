@@ -29,7 +29,7 @@ wp_reset_query();
 <div class="home-articles">
 <div class="row">
 <div class="col-sm-12">
-  <h1 class="latest-articles">Latest Articles</h1>
+  <!-- <h1 class="latest-articles">Latest Articles</h1> -->
 </div>
 
 
