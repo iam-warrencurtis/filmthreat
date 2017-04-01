@@ -8,7 +8,7 @@
         <?php dynamic_sidebar('sidebar-footer-2'); ?>
       </div>
       <div class="col-sm-4">
-        <h3>Follow us on Social</h3>
+        <h3>Social</h3>
         <h5><a href="https://www.facebook.com/filmthreat/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></h5>
         <h5><a href="https://twitter.com/FilmThreat" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a></h5>
         <h5><a href="https://www.instagram.com/filmthreat/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></h5>
