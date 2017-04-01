@@ -552,16 +552,16 @@
         },
         {
             "name": "wpackagist-plugin/photo-gallery",
-            "version": "1.3.34",
+            "version": "1.3.35",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/photo-gallery/",
-                "reference": "tags/1.3.34"
+                "reference": "tags/1.3.35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/photo-gallery.1.3.34.zip",
-                "reference": "tags/1.3.34",
+                "url": "https://downloads.wordpress.org/plugin/photo-gallery.1.3.35.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
