@@ -18,7 +18,7 @@ while(have_posts()) : the_post();
 }
 </style>
 <div class="featured-home-copy">
-  <h1 class="featured-story">Featured Story</h1>
+  <!-- <h1 class="featured-story">Featured Story</h1> -->
   <h2 class="featured-subtitle"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 </div>
 
@@ -40,7 +40,7 @@ while(have_posts()) : the_post();
 ?>
 
 
-  <div class="col-sm-4">
+  <!-- <div class="col-sm-4">
     <a href="<?php the_permalink(); ?>"><img width="350" src="<?php the_field('teaser_image'); ?>"></a>
     <div class="home-article-category"><p>
       <?php
@@ -49,7 +49,7 @@ while(have_posts()) : the_post();
       ?></p>
     </div>
     <p class="home-article-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
-  </div>
+  </div> -->
 
 
 <?php endwhile;

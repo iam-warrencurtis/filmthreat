@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e987c6446c8f2c33ba243b194832f4bd",
+    "content-hash": "0620d94a34938ab3f27ab83b9c65c90b",
     "packages": [
         {
             "name": "composer/installers",
@@ -569,6 +569,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/photo-gallery/"
+        },
+        {
+            "name": "wpackagist-plugin/slide-anything",
+            "version": "1.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/slide-anything/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/slide-anything.zip?timestamp=1483799995",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/slide-anything/"
         },
         {
             "name": "wpackagist-plugin/template-for-custom-post-types",

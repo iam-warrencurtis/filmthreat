@@ -46,7 +46,8 @@
     "wpackagist-plugin/uber-login-logo": "^1.5",
     "wpackagist-plugin/googleanalytics": "^2.1",
     "wpackagist-plugin/akismet": "^3.3",
-    "johnpbloch/wordpress": "4.7.3"
+    "johnpbloch/wordpress": "4.7.3",
+    "wpackagist-plugin/slide-anything": "^1.6"
   },
   "repositories": [
     {
