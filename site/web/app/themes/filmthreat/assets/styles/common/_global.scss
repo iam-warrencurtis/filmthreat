@@ -67,7 +67,7 @@ time {
   padding-top: 95px;
 
   @media #{$xsmall} {
-    padding-top: 5px;
+    padding-top: 25px;
   }
 
   p::first-letter {
@@ -167,6 +167,10 @@ p {
     @include roboto-slab;
     font-size: 3.6em;
     text-shadow: 2px 2px $black;
+
+    @media #{$xsmall} {
+      font-size: 1.5em;
+    }
   }
 }
 
