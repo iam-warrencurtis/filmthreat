@@ -8,3 +8,11 @@ $brand-primary:         #640005;
 $brand-secondary:       #d38524;
 $white:                 #fff;
 $black:                 #000;
+
+
+$xsmall:  '(max-width: 543px)';                          // Extra small devices (portrait phones, less than 544px)                       // Extra small devices (portrait phones, less than 544px)
+$small:   '(min-width: 544px) and (max-width: 767px)';   // Small devices (landscape phones, 544px and up)
+$medium:  '(min-width: 768px) and (max-width: 991px)';   // Medium devices (tablets, 768px and up)
+$large:   '(min-width: 992px) and (max-width: 1199px)';  // Large devices (desktops, 992px and up)
+$xlarge:  '(min-width: 1200px) and (max-width: 1799px)'; // Extra large devices (large desktops, 1200px and up)
+$xxlarge: '(min-width: 1800px)';
