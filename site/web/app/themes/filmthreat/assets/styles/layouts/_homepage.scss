@@ -35,6 +35,10 @@
   position: absolute;
   top: -375px;
 
+  @media #{$xsmall} {
+  top: -63px;
+  }
+
   .featured-story {
     @include roboto-slab;
     border-bottom: 11px solid $brand-secondary;
@@ -50,7 +54,7 @@
   width: 400px;
 
   @media #{$xsmall} {
-    width: 200px;
+    width: 400px;
   }
 
   a {

@@ -6,6 +6,11 @@
 .logo {
   width: 365px;
   margin-top: 10px;
+
+  @media #{$xsmall} {
+    width: 145px;
+    margin-left: 10px;
+  }
 }
 
 .article-banner {
