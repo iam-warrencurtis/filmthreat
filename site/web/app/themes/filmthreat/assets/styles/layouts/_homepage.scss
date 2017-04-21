@@ -1,5 +1,5 @@
 .header-wrapper {
-  background-color: $black;
+  // background-color: $black;
 }
 
 .page-template-page-interviews, .reviews, .news, .single-post, .search-results, .archives, .page-id-32 {
@@ -121,4 +121,25 @@
   color: $black;
   font-size: 2.5em;
   padding-bottom: 10px;
+}
+
+.home {
+  .header-wrapper {
+    background-color: transparent;
+  }
+}
+
+.carousel-home {
+  margin-top: -136px;
+  z-index: -1;
+}
+
+.carousel-control-next {
+  position: absolute;
+    top: 100px;
+    right: 100px;
+    z-index: 1000000;
+    color: white;
+    font-size: 60px;
+}
 }

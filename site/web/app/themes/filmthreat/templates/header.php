@@ -25,5 +25,33 @@
   </div>
 </div>
   </div>
+
+  <div id="carousel-home" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+
+    <?php
+      query_posts('posts_per_page=5&cat=7');
+      while(have_posts()) : the_post();
+      ?>
+
+      <div class="carousel-item" style="background-image: url(<?php the_post_thumbnail_url('full'); ?>); background-size: cover; height: 600px;">
+        <h2 class="featured-subtitle"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+      </div>
+
+
+    <?php endwhile;
+    wp_reset_query();
+    ?>
+    <a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev">
+     <span class="fa fa-angle-left" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
+     <span class="fa fa-angle-right" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+   </a>
+  </div>
+
+
 </header>
 </div>
