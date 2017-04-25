@@ -2,8 +2,15 @@
   // background-color: $black;
 }
 
-.page-template-page-interviews, .reviews, .news, .single-post, .search-results, .archives, .page-id-32 {
-  .header-wrapper {
+.page-template-page-interviews,
+.reviews,
+.news,
+.single-post,
+.search-results,
+.archives,
+.page-id-32 {
+
+.header-wrapper {
     background-color: $brand-primary;
 }
   .banner {
@@ -140,9 +147,18 @@
 
 .carousel-control-next {
   position: absolute;
-    top: 300px;
-    right: 100px;
-    z-index: 1000000;
-    color: white;
-    font-size: 60px;
+  top: 300px;
+  right: 100px;
+  z-index: 1000000;
+  color: white;
+  font-size: 60px;
+}
+
+.carousel-control-previous {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  z-index: 1000000;
+  color: white;
+  font-size: 60px;
 }
