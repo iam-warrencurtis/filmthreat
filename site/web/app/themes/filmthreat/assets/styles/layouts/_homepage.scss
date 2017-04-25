@@ -21,6 +21,7 @@
     height: 600px;
     margin: 0 auto;
     width: 1600px;
+    z-index: 1;
 
     @media #{$xsmall} {
     height: 210px;
@@ -51,7 +52,10 @@
 }
 
 .featured-subtitle {
-  width: 400px;
+  // width: 400px;
+  width: 700px;
+  padding-top: 250px;
+  padding-left: 160px;
 
   @media #{$xsmall} {
     width: 150px;
@@ -136,7 +140,7 @@
 
 .carousel-control-next {
   position: absolute;
-    top: 100px;
+    top: 300px;
     right: 100px;
     z-index: 1000000;
     color: white;
