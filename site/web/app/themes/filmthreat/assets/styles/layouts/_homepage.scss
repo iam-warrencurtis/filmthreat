@@ -65,7 +65,7 @@
   padding-left: 160px;
 
   @media #{$xsmall} {
-    width: 150px;
+    width: 220px;
     padding-top: 152px;
     padding-left: 32px;
   }
@@ -163,6 +163,11 @@
   z-index: 1000000;
   color: white;
   font-size: 60px;
+
+  @media #{$xsmall} {
+    top: 199px;
+    left: 33px;
+  }
 }
 
 .carousel-control-previous {
