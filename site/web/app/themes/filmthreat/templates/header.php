@@ -47,7 +47,7 @@
      <span class="sr-only">Previous</span>
    </a>
    <a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
-     <span class="fa fa-angle-left" aria-hidden="true"> <span class="previous">Previous Posts</span></span>
+     <span class="fa fa-angle-left" aria-hidden="true"> <span class="previous">More Featured</span></span>
      <span class="sr-only">Next</span>
    </a>
   </div>

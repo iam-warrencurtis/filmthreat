@@ -168,3 +168,9 @@
   color: $white;
   font-size: 24px;
 }
+
+.latest {
+  @media #{$xsmall} {
+  margin-top: 330px;
+  }
+}
