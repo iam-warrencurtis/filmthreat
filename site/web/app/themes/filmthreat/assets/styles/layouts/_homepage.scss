@@ -148,7 +148,7 @@
 .carousel-control-next {
   position: absolute;
   top: 300px;
-  right: 100px;
+  left: 100px;
   z-index: 1000000;
   color: white;
   font-size: 60px;
@@ -161,4 +161,9 @@
   z-index: 1000000;
   color: white;
   font-size: 60px;
+}
+
+.previous {
+  @include roboto-slab;
+  color: $white;
 }

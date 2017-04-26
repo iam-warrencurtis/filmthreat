@@ -30,7 +30,7 @@
     <div class="carousel-inner" role="listbox">
 
     <?php
-      query_posts('posts_per_page=5&cat=7');
+      query_posts('posts_per_page=10&cat=7');
       while(have_posts()) : the_post();
       ?>
 
@@ -43,11 +43,11 @@
     wp_reset_query();
     ?>
     <a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev">
-     <span class="fa fa-angle-left" aria-hidden="true"></span>
+     <span class="fa fa-angle-right" aria-hidden="true"></span>
      <span class="sr-only">Previous</span>
    </a>
    <a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
-     <span class="fa fa-angle-right" aria-hidden="true"></span>
+     <span class="fa fa-angle-left" aria-hidden="true"> <span class="previous">Previous Posts</span></span>
      <span class="sr-only">Next</span>
    </a>
   </div>
