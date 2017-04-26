@@ -22,6 +22,7 @@
 }
 
 .home {
+
   .banner {
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,6 +146,7 @@
 .carousel {
   margin-top: -136px;
   z-index: -1;
+  display: none;
 }
 
 .carousel-item {
@@ -201,5 +203,11 @@
 .latest {
   @media #{$xsmall} {
   margin-top: 330px;
+  }
+}
+
+.home {
+  .carousel {
+    display:block;
   }
 }
