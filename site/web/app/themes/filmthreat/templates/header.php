@@ -34,7 +34,7 @@
       while(have_posts()) : the_post();
       ?>
 
-      <div class="carousel-item" style="background-image: url(<?php the_post_thumbnail_url('full'); ?>); background-size: cover; height: 600px;">
+      <div class="carousel-item" style="background-image: url(<?php the_post_thumbnail_url('full'); ?>);">
         <h2 class="featured-subtitle"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
       </div>
 

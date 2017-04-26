@@ -66,6 +66,8 @@
 
   @media #{$xsmall} {
     width: 150px;
+    padding-top: 152px;
+    padding-left: 32px;
   }
 
   a {
@@ -143,6 +145,15 @@
 .carousel {
   margin-top: -136px;
   z-index: -1;
+}
+
+.carousel-item {
+  background-size: cover;
+  height: 600px;
+
+  @media #{$xsmall} {
+    height: 281px;
+  }
 }
 
 .carousel-control-next {
