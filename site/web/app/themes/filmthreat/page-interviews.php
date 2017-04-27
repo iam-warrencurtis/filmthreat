@@ -2,6 +2,41 @@
     Template Name: Interviews
 */
 ?>
+
+<style>
+
+.interview-card {
+  display: none;
+}
+
+.totop {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+.totop a {
+    display: none;
+}
+
+#loadMore {
+    padding: 10px;
+    text-align: center;
+    background-color: #640005;
+    color: #fff;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #fff;
+    transition: all 600ms ease-in-out;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+}
+#loadMore:hover {
+    background-color: #fff;
+    color: #33739E;
+}
+</style>
+
 <?php while (have_posts()) : the_post(); ?>
   <?php get_template_part('templates/page', 'header'); ?>
 <?php endwhile; ?>
@@ -13,7 +48,7 @@ while(have_posts()) : the_post();
 ?>
 
 
-  <div class="col-sm-4">
+  <div class="interview-card col-sm-4">
     <div class="interview-section-wrapper">
       <div class="interview-image">
       <a href="<?php the_permalink(); ?>"><img src="<?php the_field('teaser_image'); ?>"></a>
@@ -30,3 +65,9 @@ while(have_posts()) : the_post();
 wp_reset_query();
 ?>
 </div>
+
+<a href="#" id="loadMore">Load More</a>
+
+<p class="totop">
+    <a href="#top">Back to top</a>
+</p>
