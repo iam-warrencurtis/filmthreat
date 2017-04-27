@@ -190,7 +190,7 @@
 
   @media #{$xsmall} {
     top: 199px;
-    left: 33px;
+    right: 33px;
   }
 }
 
@@ -198,6 +198,10 @@
   @include roboto-slab;
   color: $white;
   font-size: 24px;
+
+  @media #{$xsmall} {
+    font-size: 12px;
+  }
 }
 
 .latest {
