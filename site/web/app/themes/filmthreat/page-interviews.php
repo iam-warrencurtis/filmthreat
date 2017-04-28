@@ -21,6 +21,7 @@
 #loadMore {
     padding: 10px;
     text-align: center;
+    margin auto;
     background-color: #640005;
     color: #fff;
     border-width: 0 1px 1px 0;
@@ -32,8 +33,8 @@
     -o-transition: all 600ms ease-in-out;
 }
 #loadMore:hover {
-    background-color: #fff;
-    color: #33739E;
+    background-color: #ccc;
+    color: #ffffff;
 }
 </style>
 
@@ -66,8 +67,8 @@ wp_reset_query();
 ?>
 </div>
 
-<a href="#" id="loadMore">Load More</a>
-
-<p class="totop">
+<a style="margin: 0 auto; text-decoration: none;" href="#" id="loadMore">Load More</a>
+<br><br>
+<!-- <p class="totop">
     <a href="#top">Back to top</a>
-</p>
+</p> -->
