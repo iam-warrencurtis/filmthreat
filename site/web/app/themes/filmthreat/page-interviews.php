@@ -67,7 +67,7 @@ wp_reset_query();
 ?>
 </div>
 
-<a style="margin: 0 auto; text-decoration: none;" href="#" id="loadMore">Load More</a>
+<a style="margin: 0 auto; text-decoration: none;" href="#" id="loadMore">More Posts >></a>
 <br><br>
 <!-- <p class="totop">
     <a href="#top">Back to top</a>
