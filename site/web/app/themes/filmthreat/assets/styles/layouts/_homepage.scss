@@ -45,7 +45,7 @@
   top: -375px;
 
   @media #{$xsmall} {
-  top: -132px;
+  top: 136px;
   }
 
   .featured-story {
@@ -56,6 +56,15 @@
     line-height: 40px;
     text-transform: uppercase;
     width: 211px;
+    top: 198px;
+    left: 161px;
+
+    @media #{xsmall} {
+      font-size: .6rem;
+      top: 136px;
+      left: 31px;
+      border-bottom: 5px solid $brand-secondary;
+    }
   }
 }
 
