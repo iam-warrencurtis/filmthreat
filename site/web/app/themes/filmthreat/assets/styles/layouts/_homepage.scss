@@ -42,7 +42,8 @@
   // margin-top: -400px;
   height: 200px;
   position: absolute;
-  top: -375px;
+  top: 198px;
+  left: 161px;
 
   @media #{$xsmall} {
   top: 135px;
@@ -56,8 +57,6 @@
     line-height: 40px;
     text-transform: uppercase;
     width: 211px;
-    top: 198px;
-    left: 161px;
 
     @media #{xsmall} {
       font-size: .6rem;
