@@ -35,8 +35,9 @@
       ?>
 
       <div class="carousel-item" style="background-image: url(<?php the_post_thumbnail_url('full'); ?>);">
-        <div class="featured-home-copy"><h1 class="featured-story"><?php the_field('featured_title'); ?></h1></div>
+        <div class="featured-home-copy"><h1 class="featured-story"><?php the_field('featured_title'); ?></h1>
         <h2 class="featured-subtitle"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        </div>
       </div>
 
 
