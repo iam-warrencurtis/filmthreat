@@ -46,7 +46,7 @@
   left: 161px;
   width: 325px;
 
-  @media #{$small} {
+  @media #{$xsmall} {
   top: 135px;
   }
 
@@ -58,7 +58,7 @@
     line-height: 40px;
     width: 345px;
 
-    @media #{$small} {
+    @media #{$xsmall} {
       font-size: 1em;
       top: 136px;
       left: 31px;
@@ -73,7 +73,7 @@
   // width: 400px;
   width: 435px;
 
-  @media #{$small} {
+  @media #{$xsmall} {
     width: 180px;
     padding-top: 0;
     padding-left: 0;
@@ -179,7 +179,7 @@
     color: $white;
   }
 
-  @media #{$small} {
+  @media #{$xsmall} {
     top: 243px;
     left: 29px;
   }
@@ -197,7 +197,7 @@
     color: $white;
   }
 
-  @media #{$small} {
+  @media #{$xsmall} {
     top: 239px;
     right: 15px;
   }
