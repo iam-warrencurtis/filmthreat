@@ -58,7 +58,7 @@
     line-height: 40px;
     width: 345px;
 
-    @media #{small} {
+    @media #{$small} {
       font-size: 1em;
       top: 136px;
       left: 31px;
