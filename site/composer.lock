@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a9589047c4331e04005ac4a6b3b8561",
+    "content-hash": "42d0fe7bdb32f9b047ba73adc0968e63",
     "packages": [
         {
             "name": "composer/installers",
@@ -689,6 +689,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/w3-total-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/wonderm00ns-simple-facebook-open-graph-tags",
+            "version": "2.0.8.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wonderm00ns-simple-facebook-open-graph-tags/",
+                "reference": "tags/2.0.8.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wonderm00ns-simple-facebook-open-graph-tags.2.0.8.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wonderm00ns-simple-facebook-open-graph-tags/"
         },
         {
             "name": "wpackagist-plugin/wp-migrate-db",

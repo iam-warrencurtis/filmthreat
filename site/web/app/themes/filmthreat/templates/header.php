@@ -30,7 +30,7 @@
     <div class="carousel-inner" role="listbox">
 
     <?php
-      query_posts('posts_per_page=20&cat=7');
+      query_posts('posts_per_page=60&cat=7');
       while(have_posts()) : the_post();
       ?>
 
