@@ -9,7 +9,7 @@
 
   <article <?php post_class(); ?>>
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-sm-8 <?php if ( ! is_active_sidebar('article-sidebar1') ) : ?>col-lg-12<?php endif; ?>">
       <header>
         <h2 class="byline"><?php the_field('author_alias'); ?></h2>
         <?php get_template_part('templates/entry-meta'); ?>
@@ -18,13 +18,14 @@
       <div class="entry-content">
         <p class="article-intro"><?php the_field('introduction'); ?></p>
       </div>
+      <?php the_content(); ?>
     </div>
       <div class="col-sm-4">
         <?php dynamic_sidebar('article-sidebar1'); ?>
       </div>
     </div>
 
-      <?php the_content(); ?>
+
 
     </div>
     <footer>

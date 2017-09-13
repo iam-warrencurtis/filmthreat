@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a924bd454d18768f5e0e9d506a2c63b8",
+    "content-hash": "30c77f9b85df75ad338795c0368fe333",
     "packages": [
         {
             "name": "composer/installers",
@@ -402,7 +402,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/add-to-any.1.7.16.zip",
-                "reference": null,
+                "reference": "tags/1.7.16",
                 "shasum": null
             },
             "require": {
@@ -410,6 +410,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/add-to-any/"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-ads",
+            "version": "1.8.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-ads/",
+                "reference": "tags/1.8.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-ads.1.8.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-ads/"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
@@ -462,7 +482,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/akismet.3.3.4.zip",
-                "reference": null,
+                "reference": "tags/3.3.4",
                 "shasum": null
             },
             "require": {
@@ -502,7 +522,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.9.zip",
-                "reference": null,
+                "reference": "tags/4.9",
                 "shasum": null
             },
             "require": {
@@ -542,7 +562,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/googleanalytics.2.1.3.zip",
-                "reference": null,
+                "reference": "tags/2.1.3",
                 "shasum": null
             },
             "require": {
@@ -602,7 +622,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/photo-gallery.1.3.52.zip",
-                "reference": null,
+                "reference": "tags/1.3.52",
                 "shasum": null
             },
             "require": {
@@ -702,7 +722,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wonderm00ns-simple-facebook-open-graph-tags.2.0.8.2.zip",
-                "reference": null,
+                "reference": "tags/2.0.8.2",
                 "shasum": null
             },
             "require": {
