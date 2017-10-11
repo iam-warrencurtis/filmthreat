@@ -3,21 +3,21 @@
     <div class="row">
       <div class="col-sm-4">
         <h3>Nav</h3>
-        <h5><a href="/news" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> News</a></h5>
-        <h5><a href="/reviews" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i> Reviews</a></h5>
-        <h5><a href="/interviews" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Interviews</a></h5>
-        <h5><a href="/features" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i> Features</a></h5>
+        <h5><a href="/news" target="_blank">News</a></h5>
+        <h5><a href="/reviews" target="_blank">Reviews</a></h5>
+        <h5><a href="/interviews" target="_blank">Interviews</a></h5>
+        <h5><a href="/features" target="_blank">Features</a></h5>
 
       </div>
       <div class="col-sm-4">
         <h3>Info</h3>
-        <h5><a href="/about" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> About</a></h5>
-        <h5><a href="/advertise" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i> Advertise</a></h5>
-        <h5><a href="/contact" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Contact</a></h5>
-        <h5><a href="/media-kit" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i> Media Kit</a></h5>
-        <h5><a href="/sponsors" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> Sponsors</a></h5>
-        <h5><a href="/staff" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i> Staff</a></h5>
-        <h5><a href="/supporters" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Supporters</a></h5>
+        <h5><a href="/about" target="_blank">About</a></h5>
+        <h5><a href="/advertise" target="_blank">Advertise</a></h5>
+        <h5><a href="/contact" target="_blank">Contact</a></h5>
+        <h5><a href="/media-kit" target="_blank">Media Kit</a></h5>
+        <h5><a href="/sponsors" target="_blank">Sponsors</a></h5>
+        <h5><a href="/staff" target="_blank">Staff</a></h5>
+        <h5><a href="/supporters" target="_blank">Supporters</a></h5>
       </div>
       <div class="col-sm-4">
         <h3>Social</h3>
