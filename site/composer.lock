@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "66fd8c412a757d6906b0244aea372392",
+    "content-hash": "316f457b40969d6c3ae9c167578f8188",
     "packages": [
         {
             "name": "composer/installers",
@@ -105,6 +105,30 @@
                 "zikula"
             ],
             "time": "2016-04-13T19:46:30+00:00"
+        },
+        {
+            "name": "iam-warrencurtis/defymedia",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iam-warrencurtis/defymedia.git",
+                "reference": "da5ce41c7de93607c5529d4578eb90afc369368d"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Defy Media",
+                    "email": "defy@example.com"
+                }
+            ],
+            "description": "Example WP plugin loaded via composer from a Git repo",
+            "time": "2018-01-18 00:27:17"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -745,30 +769,6 @@
         }
     ],
     "packages-dev": [
-        {
-            "name": "iam-warrencurtis/defymedia",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/iam-warrencurtis/defymedia.git",
-                "reference": "da5ce41c7de93607c5529d4578eb90afc369368d"
-            },
-            "require": {
-                "composer/installers": "^1.0"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Defy Media",
-                    "email": "defy@example.com"
-                }
-            ],
-            "description": "Example WP plugin loaded via composer from a Git repo",
-            "time": "2018-01-18 00:27:17"
-        },
         {
             "name": "squizlabs/php_codesniffer",
             "version": "2.9.1",
