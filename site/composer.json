@@ -46,7 +46,7 @@
     "wpackagist-plugin/uber-login-logo": "^1.5",
     "wpackagist-plugin/googleanalytics": "^2.1",
     "wpackagist-plugin/akismet": "^3.3",
-    "johnpbloch/wordpress": "4.9.1",
+    "johnpbloch/wordpress": "4.9.2",
     "wpackagist-plugin/slide-anything": "^1.6",
     "wpackagist-plugin/ajax-load-more": "^2.14",
     "wpackagist-plugin/contact-form-7": "^4.7",
@@ -75,11 +75,9 @@
       "url": "https://wpackagist.org"
     }
   ],
-  "require": {
-      "iam-warrencurtis/defymedia": "dev-master"
-  },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^2.5.1"
+    "squizlabs/php_codesniffer": "^2.5.1",
+    "iam-warrencurtis/defymedia": "dev-master"
   },
   "extra": {
     "installer-paths": {
