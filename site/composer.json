@@ -51,7 +51,8 @@
     "wpackagist-plugin/contact-form-7": "^4.7",
     "wpackagist-plugin/wonderm00ns-simple-facebook-open-graph-tags": "2.0.8.2",
     "wpackagist-plugin/advanced-ads": "^1.8",
-    "iam-warrencurtis/defymedia": "dev-master"
+    "iam-warrencurtis/defymedia": "dev-master",
+    "wpackagist-plugin/shiftnav-responsive-mobile-menu": "^1.6"
   },
   "repositories": [
     {
