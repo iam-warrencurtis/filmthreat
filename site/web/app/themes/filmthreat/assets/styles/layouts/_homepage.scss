@@ -61,12 +61,12 @@
     text-shadow: 2px 2px #000;
 
     @media #{$xsmall} {
-      font-size: 1em;
+      font-size: .6em;
       top: 136px;
       left: 31px;
       border-bottom: 11px solid $brand-secondary;
-      width: 153px;
-      line-height: 22px;
+      width: 149px;
+      line-height: 16px;
     }
   }
 }
@@ -92,7 +92,7 @@
     text-shadow: 2px 2px $black;
 
     @media #{$xsmall} {
-    font-size: .5em;
+    font-size: .3em;
     line-height: 20px;
   }
 
