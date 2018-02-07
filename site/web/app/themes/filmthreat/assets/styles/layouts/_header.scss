@@ -47,7 +47,11 @@
 }
 
 .current-menu-item {
-  background: $brand-primary;
+
+  .shiftnav-target {
+    background: $brand-primary;
+  }
+
 }
 
 .searchbox {
