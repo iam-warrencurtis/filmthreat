@@ -17,7 +17,7 @@
   </div>
   <div class="col-sm-2 top-search">
     <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
-    <div>
+    <div class="searchbox">
         <input style="width: 120px; margin-top: 15px; border: none;" type="text" value="" placeholder="search" name="s" id="s" />
         <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
     </div>
