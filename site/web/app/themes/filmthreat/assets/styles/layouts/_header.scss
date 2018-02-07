@@ -41,3 +41,11 @@
     height: auto;
   }
 }
+
+.shiftnav-target {
+  @include roboto-slab;
+}
+
+.current-menu-item {
+  background: $brand-primary;
+}
