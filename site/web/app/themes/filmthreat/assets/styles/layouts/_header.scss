@@ -46,12 +46,16 @@
   @include roboto-slab;
 }
 
-.current-menu-item {
+li {
+  .menu-item {
+    .current-menu-item {
 
-  a {
-    background: $brand-primary;
+      .shiftnav-target {
+        background: $brand-primary;
+      }
+    }
+
   }
-
 }
 
 .searchbox {
