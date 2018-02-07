@@ -19,7 +19,7 @@ while(have_posts()) : the_post();
   <div class="col-sm-4">
     <a href="<?php the_permalink(); ?>"><img width="350" src="<?php the_field('teaser_image'); ?>"></a>
     <p class="review-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
-    <p class="review-author"><?php the_field('author_alias'); ?></p>
+    <p class="review-author">by <?php the_field('author_alias'); ?></p>
     <?php if ( function_exists( 'ADDTOANY_SHARE_SAVE_KIT' ) ) { ADDTOANY_SHARE_SAVE_KIT(); } ?>
   </div>
 
