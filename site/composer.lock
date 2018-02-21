@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c1a6c756b76ba09f1c0b43278d1e0951",
+    "content-hash": "60e10a79cf219996ae84b98ced7e68d0",
     "packages": [
         {
             "name": "composer/installers",
@@ -658,7 +658,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/shiftnav-responsive-mobile-menu.1.6.2.zip",
-                "reference": null,
+                "reference": "tags/1.6.2",
                 "shasum": null
             },
             "require": {
@@ -786,6 +786,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-migrate-db/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-mmenu-lite",
+            "version": "1.0.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-mmenu-lite/",
+                "reference": "tags/1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mmenu-lite.1.0.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-mmenu-lite/"
         }
     ],
     "packages-dev": [
