@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "60e10a79cf219996ae84b98ced7e68d0",
+    "content-hash": "d5376d109733cded7916256de90ae0ed",
     "packages": [
         {
             "name": "composer/installers",
@@ -131,6 +131,30 @@
             "time": "2018-01-18 00:27:17"
         },
         {
+            "name": "iam-warrencurtis/shiftnav",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iam-warrencurtis/shiftnav.git",
+                "reference": "06adc3ad642752a2848c48665770fe6ae3e9f6cc"
+            },
+            "require": {
+                "composer/installers": "^1.0"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "shiftnav",
+                    "email": "shiftnav@example.com"
+                }
+            ],
+            "description": "Example WP plugin loaded via composer from a Git repo",
+            "time": "2018-02-22 16:05:18"
+        },
+        {
             "name": "johnpbloch/wordpress",
             "version": "4.9.2",
             "source": {
@@ -211,16 +235,16 @@
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
-            "version": "1.0.0",
+            "version": "1.0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2"
+                "reference": "7941acd71725710a789daabe0557429da63e7ac6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/e9e767f2d9f994f358c34b41def2c410ad8717f2",
-                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/7941acd71725710a789daabe0557429da63e7ac6",
+                "reference": "7941acd71725710a789daabe0557429da63e7ac6",
                 "shasum": ""
             },
             "require": {
@@ -256,7 +280,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2017-05-31T18:42:33+00:00"
+            "time": "2018-01-29T14:49:29+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -409,16 +433,16 @@
         },
         {
             "name": "wpackagist-plugin/add-to-any",
-            "version": "1.7.23",
+            "version": "1.7.25",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/add-to-any/",
-                "reference": "tags/1.7.23"
+                "reference": "tags/1.7.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/add-to-any.1.7.23.zip",
-                "reference": "tags/1.7.23",
+                "url": "https://downloads.wordpress.org/plugin/add-to-any.1.7.25.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -429,16 +453,16 @@
         },
         {
             "name": "wpackagist-plugin/advanced-ads",
-            "version": "1.8.21",
+            "version": "1.8.26",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-ads/",
-                "reference": "tags/1.8.21"
+                "reference": "tags/1.8.26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-ads.1.8.21.zip",
-                "reference": "tags/1.8.21",
+                "url": "https://downloads.wordpress.org/plugin/advanced-ads.1.8.26.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -891,7 +915,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "iam-warrencurtis/defymedia": 20
+        "iam-warrencurtis/defymedia": 20,
+        "iam-warrencurtis/shiftnav": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
