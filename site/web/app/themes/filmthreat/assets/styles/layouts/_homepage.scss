@@ -61,12 +61,12 @@
     text-shadow: 2px 2px #000;
 
     @media #{$xsmall} {
-      font-size: .6em;
+      font-size: .8em;
       top: 136px;
       left: 31px;
       border-bottom: 7px solid $brand-secondary;
-      width: 149px;
-      line-height: 16px;
+      width: 168px;
+      line-height: 18px;
     }
   }
 }
