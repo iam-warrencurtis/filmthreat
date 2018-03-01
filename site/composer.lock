@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "598d1bbc4df21a5241dc1fcfd5a685c7",
+    "content-hash": "501203205f074a8d38e65f939383db4f",
     "packages": [
         {
             "name": "composer/installers",
@@ -442,7 +442,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/add-to-any.1.7.25.zip",
-                "reference": null,
+                "reference": "tags/1.7.25",
                 "shasum": null
             },
             "require": {
@@ -462,7 +462,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/advanced-ads.1.8.26.zip",
-                "reference": null,
+                "reference": "tags/1.8.26",
                 "shasum": null
             },
             "require": {
@@ -792,6 +792,26 @@
             "homepage": "https://wordpress.org/plugins/wonderm00ns-simple-facebook-open-graph-tags/"
         },
         {
+            "name": "wpackagist-plugin/wp-mail-smtp",
+            "version": "1.2.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
+                "reference": "tags/1.2.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.2.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
+        },
+        {
             "name": "wpackagist-plugin/wp-migrate-db",
             "version": "0.9.2",
             "source": {
@@ -822,7 +842,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-mmenu-lite.1.0.0.zip",
-                "reference": null,
+                "reference": "tags/1.0.0",
                 "shasum": null
             },
             "require": {
