@@ -42,6 +42,10 @@
   h1 {
     color: $white;
 
+    @media #{$small} {
+      font-size: 2.6em;
+    }
+
     @media #{$xsmall} {
       font-size: 1.5em;
     }
@@ -276,5 +280,13 @@ p {
 @media (max-width: 575px) {
   .nav-primary, .top-search {
     display: none;
+  }
+}
+
+.col-sm-4 {
+  img {
+    @media #{$small} {
+      width: 100%;
+    }
   }
 }
