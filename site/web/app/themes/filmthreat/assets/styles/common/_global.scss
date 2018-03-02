@@ -284,6 +284,13 @@ p {
 }
 
 .col-sm-4 {
+
+  .patreon {
+    @media #{$medium} {
+      width: 18px !important;
+    }
+  }
+
   img {
 
     @media #{$medium} {
