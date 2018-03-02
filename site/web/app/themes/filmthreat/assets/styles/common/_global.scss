@@ -286,7 +286,7 @@ p {
 .col-sm-4 {
   img {
     @media #{$small} {
-      width: 100%;
+      width: 100% !important;
     }
   }
 }
