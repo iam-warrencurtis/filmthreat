@@ -285,8 +285,13 @@ p {
 
 .col-sm-4 {
   img {
+
+    @media #{$medium} {
+      width: 115% !important;
+    }
+
     @media #{$small} {
-      width: 100% !important;
+      width: 115% !important;
     }
   }
 }
