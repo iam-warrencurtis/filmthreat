@@ -294,7 +294,7 @@ p {
   img {
 
     @media #{$medium} {
-      width: 115% !important;
+      width: 115%;
     }
 
     @media #{$small} {
