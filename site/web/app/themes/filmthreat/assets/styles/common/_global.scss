@@ -287,7 +287,11 @@ p {
 
   .patreon {
     @media #{$medium} {
-      width: 18px !important;
+      max-width: 18px !important;
+    }
+
+    @media #{$small} {
+      max-width: 18px !important;
     }
   }
 
