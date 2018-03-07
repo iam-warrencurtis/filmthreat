@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c9b4f217720c56ce6b804f284150fe44",
+    "content-hash": "bf8e8ee235bc6a88ffe9c7517f34c263",
     "packages": [
         {
             "name": "composer/installers",
@@ -582,7 +582,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/contact-form-submissions.1.6.2.zip",
-                "reference": null,
+                "reference": "tags/1.6.2",
                 "shasum": null
             },
             "require": {
@@ -630,6 +630,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/googleanalytics/"
+        },
+        {
+            "name": "wpackagist-plugin/mailgun",
+            "version": "1.5.8.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mailgun/",
+                "reference": "tags/1.5.8.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailgun.1.5.8.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailgun/"
         },
         {
             "name": "wpackagist-plugin/metronet-profile-picture",
