@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "501203205f074a8d38e65f939383db4f",
+    "content-hash": "c9b4f217720c56ce6b804f284150fe44",
     "packages": [
         {
             "name": "composer/installers",
@@ -572,6 +572,26 @@
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
         },
         {
+            "name": "wpackagist-plugin/contact-form-submissions",
+            "version": "1.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-submissions/",
+                "reference": "tags/1.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-submissions.1.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-submissions/"
+        },
+        {
             "name": "wpackagist-plugin/fluid-video-embeds",
             "version": "1.2.9",
             "source": {
@@ -802,7 +822,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.2.5.zip",
-                "reference": null,
+                "reference": "tags/1.2.5",
                 "shasum": null
             },
             "require": {
