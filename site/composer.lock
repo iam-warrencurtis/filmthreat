@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf8e8ee235bc6a88ffe9c7517f34c263",
+    "content-hash": "3906325b1339cadb0274fbd52b34719b",
     "packages": [
         {
             "name": "composer/installers",
@@ -572,6 +572,26 @@
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
         },
         {
+            "name": "wpackagist-plugin/contact-form-7-recaptcha",
+            "version": "1.2.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7-recaptcha/",
+                "reference": "tags/1.2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7-recaptcha.1.2.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7-recaptcha/"
+        },
+        {
             "name": "wpackagist-plugin/contact-form-submissions",
             "version": "1.6.2",
             "source": {
@@ -642,7 +662,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/mailgun.1.5.8.5.zip",
-                "reference": null,
+                "reference": "tags/1.5.8.5",
                 "shasum": null
             },
             "require": {

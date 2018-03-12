@@ -57,7 +57,8 @@
     "wpackagist-plugin/wp-mmenu-lite": "^1.0",
     "wpackagist-plugin/wp-mail-smtp": "^1.2",
     "wpackagist-plugin/contact-form-submissions": "^1.6",
-    "wpackagist-plugin/mailgun": "1.5.8.5"
+    "wpackagist-plugin/mailgun": "1.5.8.5",
+    "wpackagist-plugin/contact-form-7-recaptcha": "^1.2"
   },
   "repositories": [
     {
