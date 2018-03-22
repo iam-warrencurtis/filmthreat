@@ -44,7 +44,7 @@
 
 <div class="row">
 <?php
-query_posts('cat=4,-1');
+query_posts('cat=4');
 while(have_posts()) : the_post();
 ?>
 
