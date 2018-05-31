@@ -48,7 +48,7 @@
     "johnpbloch/wordpress": "4.9.6",
     "wpackagist-plugin/slide-anything": "^1.6",
     "wpackagist-plugin/ajax-load-more": "^2.14",
-    "wpackagist-plugin/contact-form-7": "^4.7",
+    "wpackagist-plugin/contact-form-7": "^5.0.2",
     "wpackagist-plugin/wonderm00ns-simple-facebook-open-graph-tags": "2.0.8.2",
     "wpackagist-plugin/advanced-ads": "^1.8",
     "iam-warrencurtis/defymedia": "dev-master",
