@@ -42,5 +42,11 @@
   </div>
 </footer>
 
+<script>
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+    location = '/thank-you';
+}, false );
+</script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 <script src="/app/themes/filmthreat/assets/scripts/script.js"></script>
