@@ -45,10 +45,10 @@
     "wpackagist-plugin/uber-login-logo": "^1.5",
     "wpackagist-plugin/googleanalytics": "^2.1",
     "wpackagist-plugin/akismet": "^3.3",
-    "johnpbloch/wordpress": "4.9.6",
+    "johnpbloch/wordpress": "4.9.7",
     "wpackagist-plugin/slide-anything": "^1.6",
     "wpackagist-plugin/ajax-load-more": "^2.14",
-    "wpackagist-plugin/contact-form-7": "^5.0.2",
+    "wpackagist-plugin/contact-form-7": "^5.0.3",
     "wpackagist-plugin/wonderm00ns-simple-facebook-open-graph-tags": "2.0.8.2",
     "wpackagist-plugin/advanced-ads": "^1.8",
     "iam-warrencurtis/defymedia": "dev-master",
@@ -57,7 +57,7 @@
     "wpackagist-plugin/wp-mmenu-lite": "^1.0",
     "wpackagist-plugin/wp-mail-smtp": "^1.2",
     "wpackagist-plugin/contact-form-submissions": "^1.6",
-    "wpackagist-plugin/mailgun": "1.5.8.5",
+    "wpackagist-plugin/mailgun": "1.5.11",
     "wpackagist-plugin/contact-form-7-recaptcha": "^1.2"
   },
   "repositories": [
