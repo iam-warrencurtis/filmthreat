@@ -35,7 +35,7 @@
         <a class="footer-logo" href="<?= esc_url(home_url('/')); ?>"><img width="335px;" src="/app/uploads/2016/12/film-threat-logo-1.png"></a>
       </div>
       <div class="col-sm-8">
-        <p class="copyright">Copyright &copy; 1985 &ndash; 2017 Film Threat &#8231; All Rights Reserved &#8231; <a href="/terms">Legal Terms of Use</a></p>
+        <p class="copyright">Copyright &copy; 1985 &ndash; 2018 Film Threat &#8231; All Rights Reserved &#8231; <a href="/terms">Legal Terms of Use</a></p>
       </div>
     </div>
 
