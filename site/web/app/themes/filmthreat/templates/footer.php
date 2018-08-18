@@ -18,6 +18,7 @@
         <h5><a href="/sponsors" target="_blank">Sponsors</a></h5>
         <h5><a href="/staff" target="_blank">Staff</a></h5>
         <h5><a href="/supporters" target="_blank">Supporters</a></h5>
+        <h5><a href="/submit-project" target="_blank">SUBMIT</a></h5>
       </div>
       <div class="col-sm-4">
         <h3>Social</h3>
