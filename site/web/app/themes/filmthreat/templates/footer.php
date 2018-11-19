@@ -14,10 +14,7 @@
         <h5><a href="/about" target="_blank">About</a></h5>
         <h5><a href="/advertise" target="_blank">Advertise</a></h5>
         <h5><a href="/contact" target="_blank">Contact</a></h5>
-        <h5><a href="/media-kit" target="_blank">Media Kit</a></h5>
-        <h5><a href="/sponsors" target="_blank">Sponsors</a></h5>
         <h5><a href="/staff" target="_blank">Staff</a></h5>
-        <h5><a href="/supporters" target="_blank">Supporters</a></h5>
         <h5><a href="/submit-project" target="_blank">SUBMIT</a></h5>
       </div>
       <div class="col-sm-4">
@@ -28,7 +25,6 @@
         <h5><a href="https://www.youtube.com/user/FilmThreat" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i> Youtube</a></h5>
         <h5><a href="http://filmthreat.tumblr.com/" target="_blank"><i class="fa fa-tumblr-square" aria-hidden="true"></i> Tumblr</a></h5>
         <h5><a href="https://www.patreon.com/filmthreat" target="_blank"><img class="patreon" width="18px" src="/app/themes/filmthreat/assets/images/patreonpwhite.png" alt="patreon filmthreat"> Patreon</a></h5>
-        <h5><a href="https://plus.google.com/u/4/115730309200413090887" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i> Google+</a></h5>
       </div>
   </div>
     <div class="row">
